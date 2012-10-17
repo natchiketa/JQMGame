@@ -300,6 +300,7 @@ var RocknCoder = RocknCoder || {};
         1: {
             npcs: [
                 [50, 50, "spinAround"],
+                [250,50, "flyDown"],
                 [100, 50, "flyDown"],
                 [150, 50, "spinAround"]
             ]

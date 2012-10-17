@@ -61,7 +61,8 @@ var RocknCoder = RocknCoder || {};
 
                 /* load the spriteSheet into memory */
                 RocknCoder.Game.spriteSheet = new Image();
-                RocknCoder.Game.spriteSheet.src = "1945.png";
+                //RocknCoder.Game.spriteSheet.src = "1945.png";
+                RocknCoder.Game.spriteSheet.src = "nebula.png";
                 RocknCoder.Game.spriteSheet.onload = function() {
                     RocknCoder.GameLoop(grid);
                 };
